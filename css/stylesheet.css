@@ -6,10 +6,15 @@
     [class*="col-"] {
       flex-basis: 100%;
     }
+    .flex-container .flex-content{
+        display:flex;
+        flex-direction: column;
+    }
+    .flex-content{flex-direction: column;}
 }
 
 /*for phone*/
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
     .flex-container{
         display:flex;
         flex-direction: column;
@@ -50,14 +55,18 @@ body>div{
 }
 
 
-#grupo2{
-    display: flex;
-    background-color:black;
-    justify-content: center;
-    flex-wrap: wrap;
+#grupo2{    
+    align-items: flex-start;
+    flex-direction: row;
     flex-basis: 100%;
 }
-
+.flex-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: aqua;
+    margin-right:10px
+}
 
 
 
