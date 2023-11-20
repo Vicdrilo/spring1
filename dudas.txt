@@ -1,0 +1,9 @@
+1.
+No entiendo por qué el borde se ve comprometido. Cuando 
+juegas con media query ocurre. El width:100%; no sirve. 
+Entiendo que pueda ser por los margenes.
+
+2.
+No consigo que el flexbox del bloque 2 me funcione 
+correctamente.
+
