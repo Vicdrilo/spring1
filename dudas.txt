@@ -6,4 +6,4 @@ Entiendo que pueda ser por los margenes.
 2.
 No consigo que el flexbox del bloque 2 me funcione 
 correctamente.
-
+.
